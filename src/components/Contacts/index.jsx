@@ -8,18 +8,7 @@ import { Link } from "react-router-dom";
 function Contacts() {
 
     const [contacts, setContacts] = useState([
-        {
-            fullName: "John",
-            phoneNumber: 111,
-        },
-        {
-            fullName: "Danny",
-            phoneNumber: 222,
-        },
-        {
-            fullName: "Lucy",
-            phoneNumber: 333,
-        }
+
     ]);
 
     useEffect(() => {
